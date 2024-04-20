@@ -15,7 +15,8 @@ Toss ClonePage 입니다.
 
 ###  Section1 ~ 10
 - Toss.im 의 원본 토스 홈페이지의 각 section의 layout을 각 하나의 section으로 <br>
-10개의 section 구성, display:flex 적극 활용하여 이미지, 텍스트 배치
+10개의 section 구성, display:flex 적극 활용하여 이미지, 텍스트 배치<br>
+각 section마다 연습을 위해 section별로 css파일 따로 구성
 
 
   
