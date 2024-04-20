@@ -1,0 +1,123 @@
+.footer-container{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    padding: 50px 0px 100px;
+    background-color: #191F28;
+    justify-content: center;
+}
+
+.footer-content{
+    max-width: 940px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.footer-content> div > ul > li {
+    list-style-type: none; /* 리스트 스타일 제거 */
+}
+.footer-content> div > ul > li > p{
+    color: #B0B8C1;
+    font-size: 15px;
+    font-weight: bold;
+}
+.footer-content> div > ul  > li > a {
+    text-decoration: none; /* 텍스트 밑줄 제거 */
+    color: #6B7684;
+    font-size: 15px;
+}
+.footer-content> div > ul  > li > a:hover {
+    text-decoration: underline; 
+}
+
+
+/* footer의 맨 처음 item */
+.footer-item1{
+    display: flex;
+    max-width: 1000px;
+    width: 95%;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    position: relative;
+}
+@media (max-width: 810px) {
+    .footer-item1 {
+        max-width: 271px;
+        right: calc(100vw - 90%);
+        margin-left: 40px;
+    }
+}
+.footer-item1 > ul {
+    padding-left: 0;
+    padding-right: 60px;
+}
+.footer-item1 > ul > li {
+    margin-bottom: 10px;
+}
+
+/* 두 번째 item */
+.footer-item2{
+    max-width: 850px;
+    width: 90%;
+}
+.footer-item2 > address > strong {
+    color: #B0B8C1;
+    font-size: 15px;
+    font-weight: bold;
+}
+.footer-item2 > address {
+    color: #8B95A1;
+    font-size: 13px;
+    font-style: normal;
+}
+.footer-item2 > address > a {
+    text-decoration: none;
+    color: #6B7684;
+    font-size: 13px;
+}
+
+.footer-item2 > address > a:hover {
+    text-decoration: underline;
+}
+
+/* 세 번째 item */
+.footer-content > div > ul > .footer-item3-white > a{
+    color: #B0B8C1;
+}
+.footer-item3 > ul{
+    max-width: 900px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-item3 > ul > li {
+    width: 210px;
+    height: 20px;
+}
+
+/* 네 번째 item */
+.footer-item4 {
+    max-width: 840px;
+    width: 90%;
+    height: auto;
+}
+.footer-item4 > ul{
+    display: flex;
+    position: relative;
+    padding: 0;
+}
+.footer-item4 > ul > li {
+    position: relative;
+    margin-right: 4px;
+    list-style-type: none;
+}
+.footer-item4 > ul > li > a > img {
+    width: 36px;
+    height: 36px;
+}
+.footer-item4 > ul > li > a:hover{
+    filter: brightness(130%);
+    transition: all 0.2s ease-in;
+}

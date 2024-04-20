@@ -1,0 +1,46 @@
+.section7{
+    width: 100vw;
+    height: 800px;
+    position: absolute;
+    background-image: url('../imagesClone/section7.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden; 
+}
+.section7-span{
+    width: 650px;
+    height: 130px;
+    color: #F9FAFB;
+    font-weight: bold;
+    font-size: 82px;
+    padding: 0;
+    margin: 0;
+    text-align: center;   
+    align-self: center; 
+}
+.section7-left, .section7-right {
+    background-color: white;
+    height: 800px;
+    width: 30%;
+    transform: translate3d(0%, 0px, 0px);
+    transition: transform 0.3s ease-in-out; /* transform 변경 시 부드러운 전환 효과 */
+}
+
+@media (max-width: 1050px) {
+    .section7-span{
+        font-size: 60px;
+    }
+}
+@media (max-width: 630px) {
+    .section7-span{
+        font-size: 40px;
+    }
+}
+@media (max-width: 350px) {
+    .section7-span{
+        font-size: 25px;
+    }
+}

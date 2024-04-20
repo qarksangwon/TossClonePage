@@ -1,0 +1,95 @@
+.section9-container{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAFB;
+}
+
+/* contentbox크기 */
+.section9-content{
+    max-width: 1120px;
+    width: 100vw;
+    height: auto;
+    padding: 250px 20px;
+    padding-left: 40px;
+}
+
+/* 윗부분 */
+.section9-top{
+    width: 1048px;
+}
+.section9-h1{
+    font-size: 28px;
+    color: #3182F6;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.section9-h2{
+    color: #191F28;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+.section9-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    height: auto;
+}
+.section9-bottom > div{
+    max-width: 350px;
+    margin: 0px 200px 100px 0px;
+    display: flex;
+    flex-flow: column;
+}
+.section9-bottom > div > div {
+    margin-bottom: 30px;
+}
+.section9-bottom > div > span{
+    color: #333D4B;
+    font-size: 20px;
+    font-weight: bold;
+}
+.section9-bottom > div > p{
+    color: #8B95A1;
+    font-size: 18px;
+    font-weight: 600;
+}
+.section9-bottom >div >div > span > img{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    left: 30px;
+    top: 30px;
+}
+.section9-bottom > div > div{
+    display: flex;
+}
+.section9-item1-back,
+.section9-item2-back,
+.section9-item3-back,
+.section9-item4-back{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+.section9-item1-back{
+    background-color: #F2F4F6;
+}
+.section9-item2-back{
+    background-color: #EDCCF8;
+}
+.section9-item3-back{
+    background-color: #E8F3FF;
+}
+.section9-item4-back{
+    background-color: #AEEFD5;
+}
+
+

@@ -1,0 +1,166 @@
+.section3{
+    background-color: #F9FAFB;
+    width: 100vw;
+    height: 2200px;
+    display: flex;
+    justify-content: center;
+}
+
+.section3-group{
+    padding: 0px 40px;
+    max-width: 950px;
+    width: 95%;
+    height: 1400px;
+    margin: 250px 0;
+    display: flex;
+    flex-flow: column;
+}
+.section3-1 > h1{
+    color: #3182F6;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.section3-1-h2{
+    margin-top: 0;
+    color: #191F28;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+.section3-1{
+    margin-bottom: 10px;
+}
+.section3-2,
+.section3-3,
+.section3-4{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 200px;
+}
+.section3-2-left{
+    display: flex;
+    flex-flow: column;
+    padding-left: 40px;
+}
+.section3-2-left > p >img,
+.section3-3-right > p > img,
+.section3-4-left > p > img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+.section3-2-left > p:nth-of-type(1),
+.section3-3-right > p:nth-of-type(1),
+.section3-4-left > p:nth-of-type(1){
+    font-size: 18px;
+    margin: 0;
+    color: #3185F6;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.section3-2-left > p:nth-of-type(2),
+.section3-3-right > p:nth-of-type(2),
+.section3-4-left > p:nth-of-type(2){
+    font-size: 40px;
+    margin-top : 20px;
+    color: #333D4B;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.section3-2-left > p:nth-of-type(3),
+.section3-3-right > p:nth-of-type(3),
+.section3-4-left > p:nth-of-type(3){
+    font-size: 22px;
+    margin: 0;
+    color: #6B7684;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.section3-2-right ,
+.section3-3-left,
+.section3-4-right{
+    width: 460px;
+}
+.section3-2-right > img,
+.section3-3-left > img,
+.section3-4-right > img{
+    position: relative;
+    top: -40px;
+    max-width: 100%; 
+    height: auto; 
+    object-fit: contain;
+}
+
+.section3-1-h1,
+.section3-1-h2,
+.section3 .section3-2 .section3-2-left p,
+.section3 .section3-3 .section3-3-right p,
+.section3 .section3-4 .section3-4-left p,
+.section3 .section3-2 .section3-2-right img,
+.section3 .section3-3 .section3-3-left img,
+.section3 .section3-4 .section3-4-right img  {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-in-out, transform 0.5s ease-in-out; /* 애니메이션 효과 적용 */
+}
+
+.section3-1-h1.opacity-visible,
+.section3-1-h2.opacity-visible,
+.section3 .section3-2 .section3-2-left p.opacity-visible,
+.section3 .section3-3 .section3-3-right p.opacity-visible,
+.section3 .section3-4 .section3-4-left p.opacity-visible,
+.section3 .section3-2 .section3-2-right img.opacity-visible,
+.section3 .section3-3 .section3-3-left img.opacity-visible,
+.section3 .section3-4 .section3-4-right img.opacity-visible {
+    opacity: 1;
+    transform: translateY(0); /* 원래 위치로 돌아오는 위치 설정 */
+}
+@media (max-width: 880px){
+    .section3-1-h1{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .section3-1-h2{
+        font-size: 26px;
+        margin-bottom: 60px;
+    }
+    .section3-2-left > p >img,
+    .section3-3-right > p > img,
+    .section3-4-left > p > img{
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+    }
+    .section3-2-left > p:nth-of-type(1),
+    .section3-3-right > p:nth-of-type(1),
+    .section3-4-left > p:nth-of-type(1){
+        font-size: 12px;
+    }
+    .section3-2-left > p:nth-of-type(2),
+    .section3-3-right > p:nth-of-type(2),
+    .section3-4-left > p:nth-of-type(2){
+        font-size: 30px;
+    }
+    .section3-2-left > p:nth-of-type(3),
+    .section3-3-right > p:nth-of-type(3),
+    .section3-4-left > p:nth-of-type(3){
+        font-size: 16px;
+    }
+}
+@media (max-width: 600px) {
+    .section3-2,
+    .section3-3,
+    .section3-4{
+        flex-flow: column;
+        height: auto;
+        margin-bottom: 0;
+    }
+    .section3-3 {
+        flex-direction: column-reverse;
+    }
+}
