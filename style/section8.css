@@ -159,3 +159,18 @@
         font-size: 40px;
     }
 }
+
+@media (max-width: 420px) {
+    .section8-top{
+        height: auto;
+    }
+    .section8-middle{
+        flex-flow: column;
+        height: auto;
+    }
+    .section8-middle-right{
+        position: relative;
+        top: 24px;
+
+    }
+}
