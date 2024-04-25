@@ -31,4 +31,6 @@ Footer는 position:fixed 하지 않고 페이지의 맨 아래에 구성
 * HTML Semantic 태그 구성 예제
 
 ## ❓ 자세한 내용
-* 자세한 정리는 Notion에 있습니다.
+<a href="https://www.notion.so/Toss-ClonePage-56496e3bb46a471888c84124ffec79b5">
+  <img src="https://img.shields.io/badge/notion-000000?style=plastic&logo=notion&logoColor=#ECD53F">
+</a> << 클릭!
